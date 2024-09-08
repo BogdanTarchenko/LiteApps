@@ -13,7 +13,6 @@
 		FC073C4A2C87534600D68740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC073C492C87534600D68740 /* Assets.xcassets */; };
 		FC073C4D2C87534600D68740 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FC073C4C2C87534600D68740 /* Base */; };
 		FC073C5D2C875B9600D68740 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC073C5C2C875B9600D68740 /* WeatherModel.swift */; };
-		FC073C7C2C876B0900D68740 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FC073C7B2C876B0900D68740 /* SnapKit */; };
 		FC073C7E2C87726F00D68740 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC073C7D2C87726F00D68740 /* APIKeys.swift */; };
 		FC073C812C89CEBF00D68740 /* BaseMiniAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC073C802C89CEBF00D68740 /* BaseMiniAppView.swift */; };
 		FC073C832C89D19200D68740 /* MiniAppCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC073C822C89D19200D68740 /* MiniAppCollectionViewCell.swift */; };
@@ -26,7 +25,6 @@
 		FC073CA22C8C71D200D68740 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC073CA12C8C71D200D68740 /* UIColor+Extensions.swift */; };
 		FC073CA52C8C807100D68740 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC073CA42C8C807100D68740 /* LocationService.swift */; };
 		FC073CA72C8C80E600D68740 /* NewsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC073CA62C8C80E600D68740 /* NewsService.swift */; };
-		FC073CAA2C8D821E00D68740 /* WeatherMiniAppPackage in Resources */ = {isa = PBXBuildFile; fileRef = FC073CA92C8D821E00D68740 /* WeatherMiniAppPackage */; };
 		FC073CB72C8D832000D68740 /* LocationMiniAppPackage in Resources */ = {isa = PBXBuildFile; fileRef = FC073CB62C8D832000D68740 /* LocationMiniAppPackage */; };
 		FC073CB92C8D834B00D68740 /* NewsMiniAppPackage in Resources */ = {isa = PBXBuildFile; fileRef = FC073CB82C8D834B00D68740 /* NewsMiniAppPackage */; };
 		FC073CBB2C8D83E400D68740 /* WeatherMiniAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC073CBA2C8D83E400D68740 /* WeatherMiniAppView.swift */; };
@@ -52,7 +50,6 @@
 		FC073CA12C8C71D200D68740 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		FC073CA42C8C807100D68740 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		FC073CA62C8C80E600D68740 /* NewsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsService.swift; sourceTree = "<group>"; };
-		FC073CA92C8D821E00D68740 /* WeatherMiniAppPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = WeatherMiniAppPackage; sourceTree = "<group>"; };
 		FC073CB62C8D832000D68740 /* LocationMiniAppPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = LocationMiniAppPackage; path = LiteApps/LocationMiniAppPackage; sourceTree = SOURCE_ROOT; };
 		FC073CB82C8D834B00D68740 /* NewsMiniAppPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = NewsMiniAppPackage; path = LiteApps/NewsMiniAppPackage; sourceTree = SOURCE_ROOT; };
 		FC073CBA2C8D83E400D68740 /* WeatherMiniAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMiniAppView.swift; sourceTree = "<group>"; };
@@ -63,7 +60,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC073C7C2C876B0900D68740 /* SnapKit in Frameworks */,
 				FC073C892C89DE8E00D68740 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,7 +195,6 @@
 			children = (
 				FC073CB82C8D834B00D68740 /* NewsMiniAppPackage */,
 				FC073CB62C8D832000D68740 /* LocationMiniAppPackage */,
-				FC073CA92C8D821E00D68740 /* WeatherMiniAppPackage */,
 			);
 			path = Packages;
 			sourceTree = "<group>";
@@ -221,7 +216,6 @@
 			);
 			name = LiteApps;
 			packageProductDependencies = (
-				FC073C7B2C876B0900D68740 /* SnapKit */,
 				FC073C882C89DE8E00D68740 /* Alamofire */,
 			);
 			productName = LiteApps;
@@ -253,7 +247,6 @@
 			);
 			mainGroup = FC073C342C87534400D68740;
 			packageReferences = (
-				FC073C7A2C876B0900D68740 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				FC073C872C89DE8E00D68740 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = FC073C3E2C87534400D68740 /* Products */;
@@ -272,7 +265,6 @@
 			files = (
 				FC073C4A2C87534600D68740 /* Assets.xcassets in Resources */,
 				FC073CB72C8D832000D68740 /* LocationMiniAppPackage in Resources */,
-				FC073CAA2C8D821E00D68740 /* WeatherMiniAppPackage in Resources */,
 				FC073C4D2C87534600D68740 /* Base in Resources */,
 				FC073CB92C8D834B00D68740 /* NewsMiniAppPackage in Resources */,
 			);
@@ -515,14 +507,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		FC073C7A2C876B0900D68740 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.7.1;
-			};
-		};
 		FC073C872C89DE8E00D68740 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -534,11 +518,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FC073C7B2C876B0900D68740 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FC073C7A2C876B0900D68740 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
 		FC073C882C89DE8E00D68740 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = FC073C872C89DE8E00D68740 /* XCRemoteSwiftPackageReference "Alamofire" */;
